@@ -93,7 +93,7 @@ const SocialProof = () => {
                   {/* Stars */}
                   <div className="flex space-x-1">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-warning text-warning" />
+                      <Star key={i} className="w-5 h-5 fill-warning text-warning drop-shadow-sm" />
                     ))}
                   </div>
                   

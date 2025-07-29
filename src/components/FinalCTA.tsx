@@ -32,7 +32,7 @@ const FinalCTA = () => {
           <div className="space-y-8 text-white">
             <h2 className="text-4xl lg:text-6xl font-bold leading-tight">
               Comece sua transformação
-              <span className="block text-warning">HOJE MESMO!</span>
+              <span className="block text-warning drop-shadow-lg [text-shadow:_2px_2px_4px_rgb(0_0_0_/_80%)]">HOJE MESMO!</span>
             </h2>
             
             <p className="text-xl lg:text-2xl opacity-90 leading-relaxed max-w-3xl mx-auto">
@@ -43,22 +43,22 @@ const FinalCTA = () => {
             {/* Benefits Recap */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 my-12">
               <div className="space-y-2">
-                <Gift className="w-8 h-8 text-warning mx-auto" />
+                <Gift className="w-8 h-8 text-white drop-shadow-lg mx-auto" />
                 <p className="font-medium">eBook Completo</p>
                 <p className="text-sm opacity-80">30 receitas testadas</p>
               </div>
               <div className="space-y-2">
-                <MessageCircle className="w-8 h-8 text-warning mx-auto" />
+                <MessageCircle className="w-8 h-8 text-white drop-shadow-lg mx-auto" />
                 <p className="font-medium">Entrega Imediata</p>
                 <p className="text-sm opacity-80">Direto no WhatsApp</p>
               </div>
               <div className="space-y-2">
-                <Shield className="w-8 h-8 text-warning mx-auto" />
+                <Shield className="w-8 h-8 text-white drop-shadow-lg mx-auto" />
                 <p className="font-medium">Garantia Total</p>
                 <p className="text-sm opacity-80">7 dias para testar</p>
               </div>
               <div className="space-y-2">
-                <Clock className="w-8 h-8 text-warning mx-auto" />
+                <Clock className="w-8 h-8 text-white drop-shadow-lg mx-auto" />
                 <p className="font-medium">Suporte 24h</p>
                 <p className="text-sm opacity-80">Tire todas suas dúvidas</p>
               </div>
