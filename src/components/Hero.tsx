@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
                 30 Receitas
-                <span className="block text-warning"> Veganas Rápidas</span>
+                <span className="block text-warning drop-shadow-lg [text-shadow:_2px_2px_4px_rgb(0_0_0_/_80%)]"> Veganas Rápidas</span>
               </h1>
               
               <p className="text-xl text-white/90 leading-relaxed">
@@ -37,19 +37,19 @@ const Hero = () => {
             {/* Benefits */}
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="flex items-center space-x-3 text-white">
-                <Clock className="w-6 h-6 text-warning" />
+                <Clock className="w-6 h-6 text-white drop-shadow-lg" />
                 <span>Pronto em 30 minutos</span>
               </div>
               <div className="flex items-center space-x-3 text-white">
-                <DollarSign className="w-6 h-6 text-warning" />
+                <DollarSign className="w-6 h-6 text-white drop-shadow-lg" />
                 <span>Ingredientes baratos</span>
               </div>
               <div className="flex items-center space-x-3 text-white">
-                <Utensils className="w-6 h-6 text-warning" />
+                <Utensils className="w-6 h-6 text-white drop-shadow-lg" />
                 <span>Sabor incrível</span>
               </div>
               <div className="flex items-center space-x-3 text-white">
-                <MessageCircle className="w-6 h-6 text-warning" />
+                <MessageCircle className="w-6 h-6 text-white drop-shadow-lg" />
                 <span>Suporte via WhatsApp</span>
               </div>
             </div>

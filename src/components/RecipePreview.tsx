@@ -92,10 +92,12 @@ const RecipePreview = () => {
             <Button 
               variant="accent" 
               size="xl"
+              className="text-sm sm:text-lg"
               onClick={() => window.open(whatsappLink, '_blank')}
             >
               <MessageCircle className="w-6 h-6" />
-              QUERO VER TODAS AS RECEITAS
+              <span className="hidden sm:inline">QUERO VER TODAS AS RECEITAS</span>
+              <span className="sm:hidden">VER TODAS AS RECEITAS</span>
             </Button>
           </div>
         </Card>

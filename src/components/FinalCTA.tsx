@@ -76,11 +76,12 @@ const FinalCTA = () => {
                 <Button 
                   variant="hero" 
                   size="xl" 
-                  className="w-full text-xl py-6"
+                  className="w-full text-sm sm:text-xl py-6"
                   onClick={() => window.open(whatsappLink, '_blank')}
                 >
                   <MessageCircle className="w-8 h-8" />
-                  SIM! QUERO TRANSFORMAR MINHA ALIMENTAÇÃO
+                  <span className="hidden sm:inline">SIM! QUERO TRANSFORMAR MINHA ALIMENTAÇÃO</span>
+                  <span className="sm:hidden">QUERO TRANSFORMAR AGORA!</span>
                 </Button>
                 
                 <div className="space-y-2">
